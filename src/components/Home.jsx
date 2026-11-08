@@ -57,6 +57,12 @@ function Home() {
               <Link className="btn-pill btn-ghost" to="/about">
                 About me
               </Link>
+              <Link className="btn-pill btn-ghost" to="/skills">
+                My Skills
+              </Link>
+              <Link className="btn-pill btn-ghost" to="/education">
+                My Education
+              </Link>
             </div>
           </div>
 

@@ -3,7 +3,7 @@
 // preserved so every component keeps working; values are retuned for the look.
 
 export const lightTheme = {
-  background: '#f4f4f6',
+  background: '#9dc9e5',
   color: '#18181b',
   textMuted: '#52525b',
   accentColor: '#4f46e5',
@@ -34,7 +34,7 @@ export const lightTheme = {
 };
 
 export const darkTheme = {
-  background: '#09090b',
+  background: '#081855',
   color: '#f4f4f5',
   textMuted: '#a1a1aa',
   accentColor: '#818cf8',
@@ -48,7 +48,7 @@ export const darkTheme = {
     titleColor: 'black',
   },
   timelineLineColor: '#27272a',
-  cardBackground: '#141417',
+  cardBackground: '#111134',
   cardFooterBackground: '#1b1b1f',
   cardBorderColor: 'rgba(255, 255, 255, 0.08)',
   navbarBackground: 'rgba(9, 9, 11, 0.62)',

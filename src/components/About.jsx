@@ -6,6 +6,7 @@ import Header from './Header';
 import endpoints from '../constants/endpoints';
 import FallbackSpinner from './FallbackSpinner';
 import '../css/about.css';
+import { Link } from 'react-router-dom';
 
 function About(props) {
   const { header } = props;
@@ -38,6 +39,14 @@ function About(props) {
             </div>
           </Fade>
         ) : <FallbackSpinner />}
+
+        {data && (
+          <div className="HomeButton">
+            <Link className="btn-pill btn-ghost" to="/">
+              Back to Home
+            </Link>
+          </div>
+        )}
       </div>
     </>
   );

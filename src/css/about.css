@@ -32,3 +32,15 @@
   object-fit: cover;
   display: block;
 }
+
+.HomeButton{
+  display: flex;
+  justify-content: center;
+  margin-top: 40px;
+}
+
+.HomeButton .btn-pill {
+  width: fit-content;
+  flex: none;
+   background: linear-gradient(90deg,#818cf8,#c084fc);
+}
