@@ -1,3 +1,48 @@
+# README & Weekly Review
+## 1.Project Information :<br>
+프로젝트 소개 : 개발자 포트폴리오, 개발자 프로필<br>
+원본 URL 및 라이선스 : https://github.com/mayankagarwal09/dev-portfolio, License : MIT License    Copyright (c) 2022 Mayank Agarwal<br>
+선정 이유 : 이 코드를 통해 React 구조와 컴포넌트 등을 이해할 수 있고 앞으로 개발자로 성장하면서 저의 역량과 경험 등을 보여줄 수 있는 포트폴리오가 필요하다고 생각되어 선택하였습니다.
+
+## 2. Installation :<br>
+원본 Fork 후<br>
+git clone https://github.com/hyungeun02/dev-portfolio.git <br>
+cd dev-portfolio<br>
+npm install<br>
+npm run dev
+
+## 3.Source Code Exploration:<br>
+1. Project Structure:<br>
+- home.json : 홈 화면에 표시되는 이름, 간단한 설명, 간단한 메시지 등을 보여주는 파일. .json 파일들은 데이터들을 저장하여 보여줄 수 있는 역할을 한다.
+- Home.jsx : React 컴포넌트로 UI를 구성할 수 있도록 작성하는 파일. 홈 화면과 이름, 간단한 설명, 간단한 메시지 등을 화면에 보여주고 다른페이지로 이동하는 버튼이 있다.<br>
+-themea.js : js로 만들어진 파일. 다크 모드, 라이트 모드일 때의 배경색, 카드 배경색 등을 변경할 수 있다<br>
+2. React Component:<br>
+- Home Component: 홈 화면을 구성하는 React 컴포넌트로 이름, 간단한 설명, 간단한 메시지 등을 화면에 보여주고 다른 페이지로 이동하는 버튼이 있습니다.<br>
+- About Component : About을 구성하는 React 컴포넌트로 자기소개 등을 화면에 보여주고 Home으로 돌아가는 버튼이 있습니다.<br>
+3. Code Analysis:<br>
+Home.jsx의 53~66번 줄<br>
+Link를 이용해서 다른 페이지로 이동하는 코드입니다. div를 이용해서 이동하는 버튼들을 묶어주고 className을 지정하였습니다. 버튼을 누를 경우 to="" 로 해당 페이지로 이동합니다. 예를 들어 to="/projects"면 프로젝트 페이지로 이동합니다.
+
+## 4. Customizing:<br>
+라이트 모드와 다크 모드의 배경 색을 변경하였습니다. 하얀색을 하늘색, 검정색을 남색, 어두운 검정색을 어두운 남색으로 변경하였습니다.
+또 Home의 이름 등의 글꼴을 변경하였습니다.<br> 포트폴리오 이름, 간단한 설명, 간단한 메시지 등을 변경하고 자기소개 페이지를 변경하고 학적사항을 변경하였습니다. <br>
+ Home.jsx에서 다른 페이지로 가는 버튼을 2개 더 추가하였고 about.jsx에서 Home 페이지로 돌아가는 버튼을 만들었습니다. 또 로고도 한동대학교 로고로 변경하였습니다.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+------------------------------------------------------------------------------------------------------------------------
+
 # Dev Portfolio  [![GitHub](https://img.shields.io/github/license/mayankagarwal09/dev-portfolio?color=blue)](https://github.com/mayankagarwal09/dev-portfolio/blob/master/LICENSE.md) ![visitors](https://visitor-badge.laobi.icu/badge?page_id=mayankagarwal09.dev-portfolio)
 
 ## A minimal portfolio template for Developers!
