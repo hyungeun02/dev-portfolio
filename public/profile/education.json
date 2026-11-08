@@ -1,18 +1,18 @@
 {
-    "education":[
+    "education": [
         {
-            "title": "Jun 20XX - Jun 20YY",
-            "cardTitle": "B.Tech, Computer Science",
-            "cardSubtitle":"XYZ University, City",
-            "cardDetailedText": "CGPA - 9.5",
-            "icon" : {
-                "src": "images/education/lorem-ipsum.png"
+            "title": "2022 - Present",
+            "cardTitle": "AI and Computer Engineering",
+            "cardSubtitle": "Handong Global University, Pohang",
+            "cardDetailedText": "Studying AI and Computer Engineering to develop my knowledge and skills for the future.",
+            "icon": {
+                "src": "https://www.handong.edu/site/handong-kor/res/img/symbol_logo01.png"
             }
         },
         {
             "title": "Apr 20XX",
             "cardTitle": "High School",
-            "cardSubtitle":"ABC School, City",
+            "cardSubtitle": "ABC School, City",
             "cardDetailedText": "Marks - 95%"
         }
     ]
